@@ -1,0 +1,24 @@
+// flex 布局
+.flex{
+    display: flex;
+    flex-direction: row;
+}
+
+.flex-center-between{
+    align-items: center;
+    justify-content: space-between;
+}
+
+.flex-between{
+    justify-content: space-between;
+}
+
+.flex-column{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.flex1{
+    flex: 1;
+}
